@@ -22,7 +22,8 @@
     color: black;
     text-decoration: none;
     margin-top: 329px;
-    padding: 20px 12px;
+    padding: 22px 13px;
+    font-size: 14px;
     z-index: 2;
 }
 
@@ -32,7 +33,7 @@
     text-decoration: none;
     color: #ffffff;
     padding: 12px 13px;
-    margin-top: 765px;
+    margin-top: 12.7%;
     font-size: 14px;
     z-index: 3;
 }
@@ -71,10 +72,10 @@ ul li img{
 .first-menu {
     position: absolute;
     background-color: #ffffff;
-    padding: 25px 0px 28px 25px;
-    margin: 60px 0px 0px 105px;
-    height: 47px;
-    width: 82.65%;
+    padding: 1.85% 0 2.1% 1.8%;
+    margin: 4.45% 0 0 7.8%;
+    height: 4.4%;
+    width: 82.7%;
     z-index: 2;
 }
 
@@ -82,8 +83,8 @@ ul li img{
     position: absolute;
     background-color: #ffffff;
     text-align: center;
-    margin: 252px 0px 0px 105px;
-    padding: 45px 20px 45px 20px;
+    margin: 18% 0 0 7.8%;
+    padding: 3.2% 2% 3.2% 2%;
     width: 335px;
     z-index: 2;
 }
@@ -91,7 +92,8 @@ ul li img{
 .multi-div{
     position: absolute;
     display: flex;
-    margin: 608px 0px 0px 105px;
+    margin: 608px 0 0 7.8%;
+    width: 92.2%;
     z-index: 2;
 }
 
@@ -106,7 +108,7 @@ ul li img{
 
 .section-container{
     margin-right: 30px;
-    width: 262px;
+    width: 21.1%;
 }
 
 .text-in-div p{
@@ -145,15 +147,16 @@ ul li img{
   
 .navigator li {
     display: inline-block; 
-    margin-top: -51px;
+    margin-top: -4.7%;
+    padding: 0 0.35%;
+
 }
   
 .navigator a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 90%;
     color: #888888;
-    height: 47px;
-    padding: 42px 25px;
+    padding: 36% 20px;
     border: 1px solid #eeeeee;
     border-right: none;
     border-top: none;
