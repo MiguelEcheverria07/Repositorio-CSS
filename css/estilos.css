@@ -35,8 +35,8 @@
 
 .second-main-container img {
     border-left: 1px solid #d4d4d4;
-    padding: 25px 10px 25px 45px;
-    margin-right: 1.8%;
+    padding: 25px 0.8% 25px 3.2%;
+    margin-right: 2%;
 }
 
 .container-logos {
@@ -63,7 +63,7 @@ ul li img {
     position: absolute;
     background-color: #ffffff;
     text-align: center;
-    margin: 13% 0 0 7.8%;
+    margin: 15% 0 0 7.8%;
     padding: 3.2% 2% 3.2% 2%;
     width: 335px;
     z-index: 2;
@@ -157,7 +157,7 @@ ul li img {
     text-decoration: none;
     font-size: 90%;
     color: #888888;
-    padding: 6.9% 30px;
+    padding: 7.5% 30px;
     border-left: 1px solid #eee;
 }
 
