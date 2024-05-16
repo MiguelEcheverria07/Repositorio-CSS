@@ -1,166 +1,96 @@
-.container-main {
-    background-image: url(../recursos/imagenes/div-background.jpg);
-    background-size: 100% 61.5%;
-    background-repeat: no-repeat;
-    height: 1070px;
-    margin: -8px;
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.container-main::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 61.5%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
+:root {
+    --naranja: #d95550;
+    --naranjaClaro: #dd6662;
+    --naranjaSuperClaro: #f89e8b;
+    --blanco: #fff;
+    --gris: #55557b;
 }
 
-.arrows {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    text-decoration: none;
-    margin-top: 329px;
-    padding: 22px 13px;
-    font-size: 14px;
-    z-index: 2;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--naranja);
 }
 
-.second-main-container {
-    background-color: #eeeeee;
-    margin-left: -8px;
-    margin-right: -8px;
-}
-
-.second-main-container img {
-    border-left: 1px solid #d4d4d4;
-    padding: 25px 0.8% 25px 4.1%;
-    margin-right: 2%;
-}
-
-.container-logos {
-    display: flex;
-    padding: 5%;
-    font-size: 13px;
-    color: #888888;
-}
-
-.container-logos span {
-    color: #9ed034;
-}
-
-.container-logos li {
-    display: inline;
-    margin-right: 25px;
-}
-
-ul li img {
-    width: 12px;
-}
-
-.middle-div {
-    position: absolute;
-    background-color: #ffffff;
+h1 {
+    margin-top: 20px;
+    color: var(--blanco);
     text-align: center;
-    margin: 15% 0 0 7.8%;
-    padding: 3.2% 2% 3.2% 2%;
-    width: 335px;
-    z-index: 2;
 }
 
-.arrows-in-container {
-    position: absolute;
-    background-color: #9ed034;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 12px 13px;
-    margin-top: 12.7%;
-    font-size: 14px;
-    z-index: 3;
-}
-
-.multi-div {
-    position: absolute;
-    display: flex;
-    margin: 608px 0 0 7.8%;
-    width: 92.2%;
-    z-index: 2;
-}
-
-.title {
-    background-color: #9ed034;
-    color: #ffffff;
-    padding: 12px 50px;
+form {
+    width: 400px;
+    margin: 45px auto;
     text-align: center;
-    font-size: 22px;
-
 }
 
-.section-container {
-    margin-right: 30px;
-    width: 21.1%;
+form>input[type="text"] {
+    background-color: var(--naranja);
+    color: var(--blanco);
+    border-style: none;
+    font-size: 1.5em;
 }
 
-.text-in-div p {
-    color: #e54747;
-    font-size: 13px;
-    font-weight: 300;
-    margin: 8px 0px 28px 0px;
+form>input[type="text"]::placeholder {
+    color: var(--naranjaSuperClaro);
 }
 
-.text-in-div span {
-    color: #9ed034;
-    font-weight: 600;
-    font-size: 14px;
+form>input[type="text"]:focus{
+    outline: none;
 }
 
-.section-container img {
-    width: 100%;
-    margin-bottom: 10px;
+form>input[type="submit"]{
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    color: var(--naranja);
 }
 
-.section-container> .text-in-div > a {
-    background-color: #9ed034;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 700;
-    padding: 12px 0;
-    width: 100%;
-    display: block;
-    font-size: 14px;
+form>input[type="submit"]:hover{
+    background-color: var(--naranjaSuperClaro);
+    cursor: pointer;
+    color: var(--blanco);
 }
 
-.first-menu {
-    position: absolute;
-    align-items: center;
+.list-container{
+    width: 400px;
+    margin: 0 auto;
+    max-height: 22.2vw;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.task-container{
+    background-color: var(--blanco);
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
-    padding: 2% 0 2% 1.8%;
-    margin: 4.45% 0 0 7.8%;
-    height: 4.4%;
-    width: 82.7%;
-    z-index: 2;
-    overflow: hidden;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--gris);
 }
 
-.navigator {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 97%;
+.closeBtn{
+    width: 15px;
+    height: 15px;
 }
 
-.navigator a {
-    text-decoration: none;
-    font-size: 90%;
-    color: #888888;
-    padding: 8% 30px;
-    border-left: 1px solid #eee;
+.closeBtn:hover{
+    cursor: pointer;
 }
 
-.logo {
-    display: flex;
+#stats{
+    margin-top: 25px;
+    font-size: 1.3em;
+    color: var(--naranjaSuperClaro);
+    text-align: center;
 }
