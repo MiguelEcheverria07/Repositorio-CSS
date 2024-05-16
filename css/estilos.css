@@ -61,7 +61,7 @@ form>input[type="submit"]:hover{
 .list-container{
     width: 400px;
     margin: 0 auto;
-    max-height: 22.2vw;
+    max-height: 38.2vh;
     border-radius: 5px;
     padding: 10px;
     overflow-y: auto;
